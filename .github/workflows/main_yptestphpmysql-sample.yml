@@ -56,5 +56,5 @@ jobs:
         with:
           app-name: 'YPTestphpMysql-Sample'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_4DBEDBB830C6449E91D2B8F264ECEFCD }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_DB945F1C672848668A9C7CEFEEAF5AAA }}
           package: .
